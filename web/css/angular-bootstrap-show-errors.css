@@ -1,0 +1,7 @@
+/* Don't show error messages before the validation is done */
+.form-group .help-block {
+    display: none;
+}
+.form-group.has-error .help-block {
+    display: block;
+}

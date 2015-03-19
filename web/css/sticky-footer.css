@@ -1,0 +1,15 @@
+/* Let the header and the footer enough place */
+body {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Make the footer sticky at the bottom of the page */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer .navbar {
+    margin-bottom: 0px;
+}
