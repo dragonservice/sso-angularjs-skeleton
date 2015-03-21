@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 // AngularJS and translation provider initialization
 

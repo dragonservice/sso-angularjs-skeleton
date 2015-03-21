@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 // Serves the navigation for the application
 
