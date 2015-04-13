@@ -5,13 +5,13 @@
 - Git clone the repository [dragonservice/sso-angularjs-skeleton](https://github.com/dragonservice/sso-angularjs-skeleton.git)
 - Open terminal, switch to the directory and execute:
   - npm install
-  - PORT=%PORT% npm run nodemon
+  - PORT=%PORT% npm run start-watch
 - Open another terminal, switch to the directory and execute:
-  - npm run watchify
+  - npm run js-watch
 - Git commit/push into the master after changes
 
 ## Production
 - Set environment variable "NODE_ENV" to "production" to enable express internal optimizations
 
 ## Try it online
-http://sso-angularjs-skeleton.herokuapp.com/
+http://sso-angularjs-skeleton.herokuapp.com

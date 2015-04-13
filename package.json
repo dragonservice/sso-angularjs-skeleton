@@ -7,8 +7,8 @@
         "postinstall": "npm run bower && npm run js",
         "bower": "./node_modules/bower/bin/bower install",
         "js": "./node_modules/browserify/bin/cmd.js ./js/app.js -o ./web/js/app.js",
-        "nodemon": "./node_modules/nodemon/bin/nodemon.js --watch app.js --watch modules app.js",
-        "watchify": "./node_modules/watchify/bin/cmd.js ./js/app.js -o ./web/js/app.js"
+        "start-watch": "./node_modules/nodemon/bin/nodemon.js --watch app.js --watch modules app.js",
+        "js-watch": "./node_modules/watchify/bin/cmd.js ./js/app.js -o ./web/js/app.js"
     },
     "dependencies": {
         "dragonnodejs": "^4.0.4",
